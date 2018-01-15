@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="StdAfx.cpp" />
+    <ClCompile Include="TestISAPI.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="StdAfx.h" />
+    <ClInclude Include="TestISAPI.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TestISAPI.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="TestISAPI.def" />
+    <None Include="TestISAPI.rc2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{b925a3de-e013-4dd6-91a7-b707c9f88013}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{9d11842f-3a89-4bf2-b9f8-982b6812fc77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{5563fcc6-76b7-4fea-b241-a8488910ee56}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,8 @@
+; TESTISAPI.def : declares the module parameters for the DLL.
+
+LIBRARY	     "TESTISAPI"
+
+EXPORTS
+	HttpExtensionProc
+	GetExtensionVersion
+	TerminateExtension
